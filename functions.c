@@ -278,3 +278,11 @@ int readAndPrintBinaryFile(const char *binFilename) {
 
     return 1;
 }
+
+void test (int quantity)
+{
+    for (int i = 0; i < quantity; i++)
+    {
+        printf("Hello world!\n");
+    }
+}

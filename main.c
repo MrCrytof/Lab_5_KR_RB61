@@ -2,6 +2,7 @@
 #include "functions.h"
 
 int main(void) {
+    test(4);
     // Оголошуємо структуру для збереження вхідних даних
     LabData data;
 

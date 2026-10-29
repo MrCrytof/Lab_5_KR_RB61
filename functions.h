@@ -62,4 +62,13 @@ int generateAndSaveFiles(const LabData *data, const char *txtFilename, const cha
  */
 int readAndPrintBinaryFile(const char *binFilename);
 
+/**
+ *@brief виводить hello world стільки разів скільки задав користувач
+ *
+ *@param quantity кількість виведення hello world
+ *
+ *@return функія нічого не повертає
+ */
+void test(int quantity);
+
 #endif
